@@ -1,0 +1,22 @@
+{
+  "name": "w2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node proxy.js",
+    "complete": "node lib/complete-info.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@js-core/whistle": "0.0.2"
+  },
+  "dependencies": {
+    "@js-core/local-file-mock": "^0.0.13",
+    "@js-core/node-io-library": "^0.0.20",
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.1"
+  }
+}
